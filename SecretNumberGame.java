@@ -6,11 +6,11 @@ public class SecretNumberGame {
         Scanner reader = new Scanner(System.in);
         int yourNumber = reader.nextInt();
 
-        if (yourNumber >= (8)) {
+        if (yourNumber >= 8) {
             System.out.println("Your number is too high!");
-        } else if (yourNumber <= (6)) {
+        } else if (yourNumber <= 6) {
             System.out.println("Your number is too low!");
-        } else if (yourNumber == (7)) {
+        } else if (yourNumber == 7) {
             System.out.println("Yay! You got it right!");
 
         }
